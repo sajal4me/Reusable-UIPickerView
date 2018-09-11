@@ -6,6 +6,7 @@ Usages:-
 Multi Picker can be use either for 1 row or 2
 
 for 1 components:-
+''' swift
 let firstArray ["One", "Two", "Three", "Four", "Five"]
 func textFieldShouldBeginEditing(_ textField: UITextField) -> Bool {
 
@@ -17,3 +18,4 @@ textField.text =  data
 print(index)
 
 }
+''''
